@@ -1,0 +1,91 @@
+.playwindow-div{
+    width: 100%;
+    height: 90vh;
+    color:rgb(16, 16, 221);
+}
+
+.playwindow-sub-div{
+    width: 100%;
+    height: 95%;
+    margin-block: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.play-header{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.play-main{
+    width: 30%;
+    height: 60%;
+}
+
+.play-row{
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.play-row div{
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.play-row div:hover{
+    background-color: var(--main-background-color);
+}
+
+.play-col1{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.play-col2{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.play-col3{
+    border-bottom: 2px solid black;
+}
+
+.play-col-last-1{
+    border-right: 2px solid black;
+}
+
+.play-footer{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color:rgb(16, 16, 221);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.play-move-left button{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: yellowgreen;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

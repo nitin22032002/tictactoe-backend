@@ -1,0 +1,86 @@
+:root{
+  --main-background-color:rgba(209, 202, 202,0.5);
+}
+
+.navbar-div{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    max-height: 20vh;
+    background-color: var(--main-background-color);
+}
+.navbar-sub-div{
+    width: 95%;
+    margin: 10px;
+    height: 95%;
+    display: flex;
+}
+
+.navbar-logo {
+    display: inline-block;
+    font-size: 24px;
+    width: 30%;
+  }
+  
+.navbar-logo span {
+    margin-inline: 2px;
+    letter-spacing: 2px;
+    animation-name: word-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+#span-1{
+    animation-delay: 0s;
+}
+#span-2{
+    animation-delay: 0.1s;
+}
+#span-3{
+    animation-delay: 0.2s;
+}
+  
+  @keyframes word-animation {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  
+    50% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+
+
+.navbar-items{
+    width: 70%;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.navbar-item:hover{
+    color: rgba(142, 64, 64);
+}
+
+.footer{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--main-background-color);
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
